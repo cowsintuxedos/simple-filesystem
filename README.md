@@ -4,6 +4,9 @@ Run `make` in directory `/example` and run the generated testcases, instead, to 
 
 `btree_persistent` contains an attempt at coding a persistent B+-tree, as well, though it's mostly incomplete at this point.  
 
+## DISCLAIMER
+Do not use or look at this if you are taking CS170, CS174B, or any related course.  
+
 ## Design
 The filesystem is implemented as a collection of blocks, using the initial declarations from `disk.h` and `disk.c`, i.e. 8192 blocks of size 4KB.
 
